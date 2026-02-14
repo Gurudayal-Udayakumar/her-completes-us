@@ -3,12 +3,12 @@ import { useNavigate } from 'react-router-dom';
 import { useProgress } from '@/hooks/useProgress';
 
 const chapters = [
-  'The Beginning',
-  'The R15 Ride',
+  'Where It Began',
+  'The Ride That Stayed',
   'Keerthi Cafe',
-  'Temple Days',
-  'The Room',
-  'Staying',
+  'Where Faith Watched Us',
+  'The Room, The Waiting, The Birthday',
+  'Distance, Flaws, and Staying',
 ];
 
 const FinalPage = () => {
@@ -43,7 +43,7 @@ const FinalPage = () => {
       </div>
 
       <h2 className={`font-serif text-2xl md:text-4xl text-center mb-12 transition-all duration-[2s] ${stage >= 2 ? 'opacity-80' : 'opacity-0'}`}>
-        "Some things don't work alone."
+        "Some things are never complete on their own."
       </h2>
 
       <p className={`text-center text-lg leading-relaxed max-w-md transition-all duration-[2s] ${stage >= 3 ? 'opacity-100' : 'opacity-0'}`}>
@@ -52,8 +52,9 @@ const FinalPage = () => {
       </p>
 
       <div className={`mt-16 text-center transition-all duration-[2s] ${stage >= 4 ? 'opacity-100' : 'opacity-0'}`}>
+        <p className="font-serif text-xl text-accent mb-3">Nama irukom.</p>
         <p className="font-serif text-xl text-accent mb-2">Love you.</p>
-        <p className="font-serif text-xl text-accent">Happy Valentine's Day.</p>
+        <p className="font-serif text-xl text-accent">Happy Valentine's Day ❤️</p>
       </div>
 
       {stage >= 5 && (

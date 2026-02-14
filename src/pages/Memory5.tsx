@@ -23,28 +23,31 @@ const Memory5 = () => {
 
   const contentLines = [
     { text: 'Once, you came to my room.' },
+    { text: 'I locked it and left for college because of some work.' },
     { text: '' },
-    { text: 'I locked the room and went to college because of some work.' },
-    { text: 'You stayed inside without any fear or doubt.' },
+    { text: 'You stayed inside —' },
+    { text: 'without fear, without doubt.' },
     { text: '' },
-    { text: 'When I came back,' },
+    { text: 'When I returned,' },
     { text: 'you were wearing my T-shirt.' },
     { text: '' },
-    { text: 'You had cleaned the room a little' },
-    { text: 'and made sticky notes and pasted them on the wall.' },
+    { text: 'The room was cleaner.' },
+    { text: 'Sticky notes were on the wall.' },
+    { text: 'A quiet celebration waiting for me.' },
     { text: '' },
     { text: 'It was my birthday week.' },
-    { text: 'You planned that small celebration while I was away.' },
+    { text: 'You planned it while I was away,' },
+    { text: 'turning a normal day into something I will always carry.' },
     { text: '' },
-    { text: '"I left for college. You stayed. Love you."', className: 'font-serif italic text-accent mt-8' },
+    { text: '"I left for college that day. You stayed — and made the space feel like it belonged to us."', className: 'font-serif italic text-accent mt-8' },
   ];
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center px-6 py-20 max-w-2xl mx-auto">
-      <p className="text-xs tracking-[0.3em] uppercase text-muted-foreground mb-16">Chapter Five</p>
+      <p className="text-xs tracking-[0.3em] uppercase text-muted-foreground mb-16">The Room, The Waiting, The Birthday</p>
 
       <h2 className="font-serif text-2xl md:text-4xl text-center mb-12 opacity-80">
-        "Trust shows itself in quiet ways."
+        "Trust reveals itself when no one is watching."
       </h2>
 
       {!unlocked && (

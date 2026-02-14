@@ -35,26 +35,31 @@ const Memory3 = () => {
   }, [filling, unlocked]);
 
   const contentLines = [
-    { text: 'Keerthi Cafe, the bakery near your house.' },
+    { text: 'Keerthi Cafe —' },
+    { text: 'the small bakery near your house.' },
     { text: '' },
-    { text: 'We met there many times.' },
-    { text: 'We had snacks, talked a lot, and spent comfortable time together.' },
+    { text: 'We met there again and again.' },
+    { text: 'Snacks on the table.' },
+    { text: 'Time slowing down without effort.' },
     { text: '' },
-    { text: 'Almost every time, we drank badam paal.' },
-    { text: 'We even recorded videos of us drinking it.' },
+    { text: 'Almost every visit ended the same way —' },
+    { text: 'badam paal in our hands,' },
+    { text: 'a video recording us taking the first sip.' },
     { text: '' },
-    { text: 'The taste was always nice,' },
-    { text: 'and on the first sip, both of us lifted our eyebrows at the same time.' },
+    { text: 'The taste was always good.' },
+    { text: 'And every single time,' },
+    { text: 'both our eyebrows lifted together —' },
+    { text: 'surprised, amused, in sync.' },
     { text: '' },
-    { text: '"Small moments. Shared smiles. Always us."', className: 'font-serif italic text-accent mt-8' },
+    { text: '"Small moments like these don\'t fade. They repeat themselves, until they feel like home."', className: 'font-serif italic text-accent mt-8' },
   ];
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center px-6 py-20 max-w-2xl mx-auto">
-      <p className="text-xs tracking-[0.3em] uppercase text-muted-foreground mb-16">Chapter Three</p>
+      <p className="text-xs tracking-[0.3em] uppercase text-muted-foreground mb-16">Keerthi Cafe</p>
 
       <h2 className="font-serif text-2xl md:text-4xl text-center mb-12 opacity-80">
-        "Comfort often hides in familiar places."
+        "There are places that slowly become ours."
       </h2>
 
       {!unlocked && (
