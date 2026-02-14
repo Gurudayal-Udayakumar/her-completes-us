@@ -29,23 +29,27 @@ const Memory2 = () => {
   }, [unlocked]);
 
   const contentLines = [
-    { text: 'That day, I borrowed a blue R15 bike from my senior.' },
-    { text: '' },
+    { text: 'I borrowed a blue R15 bike from my senior that day.' },
     { text: 'We had planned our dress code —' },
-    { text: 'dark grey shirts and blue jeans, both of us.' },
+    { text: 'dark grey shirts, blue jeans, both of us.' },
     { text: '' },
     { text: 'I picked you up near your college,' },
-    { text: 'and we rode together to my room near my college.' },
+    { text: 'and we rode together to my room near mine.' },
     { text: '' },
-    { text: '"The road was ordinary. Being with you was not."', className: 'font-serif italic text-accent mt-8' },
+    { text: 'The road was ordinary.' },
+    { text: 'The movement was simple.' },
+    { text: 'But being beside you, matching steps, matching colours,' },
+    { text: 'made that day unforgettable.' },
+    { text: '' },
+    { text: '"Some journeys don\'t need destinations. They just need us."', className: 'font-serif italic text-accent mt-8' },
   ];
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center px-6 py-20 max-w-2xl mx-auto">
-      <p className="text-xs tracking-[0.3em] uppercase text-muted-foreground mb-16">Chapter Two</p>
+      <p className="text-xs tracking-[0.3em] uppercase text-muted-foreground mb-16">The Ride That Stayed</p>
 
       <h2 className="font-serif text-2xl md:text-4xl text-center mb-12 opacity-80">
-        "Some days feel different even before they end."
+        "Some days become memories even before we realize they will."
       </h2>
 
       {!unlocked && (

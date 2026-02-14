@@ -15,31 +15,33 @@ const Memory4 = () => {
   }, [isPageAccessible, navigate]);
 
   const contentLines = [
-    { text: 'We visited the Vinayagar temple and the Perumal temple many times.' },
+    { text: 'The Vinayagar temple.' },
+    { text: 'The Perumal temple.' },
     { text: '' },
-    { text: 'We would come together,' },
-    { text: 'but stand separately like strangers,' },
-    { text: 'and pray at the same time.' },
+    { text: 'We came together,' },
+    { text: 'stood apart like strangers,' },
+    { text: 'and prayed at the same time.' },
     { text: '' },
-    { text: 'Once, in the Vinayagar temple,' },
+    { text: 'Once, at the Vinayagar temple,' },
     { text: 'an aunty insisted that I do sangu pooja.' },
-    { text: 'It was completely unexpected.' },
+    { text: 'I hadn\'t planned it.' },
+    { text: 'I had come only to pray with you.' },
     { text: '' },
-    { text: 'I had come only to pray with you,' },
-    { text: 'but that pooja happened that day.' },
+    { text: 'But that pooja happened that day.' },
+    { text: 'And you were so happy.' },
     { text: '' },
-    { text: 'You were very happy because of it.' },
-    { text: 'We both believed that God made it happen for a reason.' },
+    { text: 'We believed something unseen guided that moment —' },
+    { text: 'that God chose that action for us.' },
     { text: '' },
-    { text: '"Some moments feel guided. Nama irukom, always."', className: 'font-serif italic text-accent mt-8' },
+    { text: '"Some blessings arrive unannounced. We felt that one."', className: 'font-serif italic text-accent mt-8' },
   ];
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center px-6 py-20 max-w-2xl mx-auto">
-      <p className="text-xs tracking-[0.3em] uppercase text-muted-foreground mb-16">Chapter Four</p>
+      <p className="text-xs tracking-[0.3em] uppercase text-muted-foreground mb-16">Where Faith Watched Us</p>
 
       <h2 className="font-serif text-2xl md:text-4xl text-center mb-12 opacity-80">
-        "Faith sometimes works quietly, just like love."
+        "Love sometimes stands quietly beside belief."
       </h2>
 
       {!unlocked && (

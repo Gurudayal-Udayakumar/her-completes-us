@@ -16,28 +16,35 @@ const Memory6 = () => {
 
   const contentLines = [
     { text: 'It has been a long time since we met physically.' },
-    { text: 'Things are very strict at your house.' },
+    { text: 'Things are strict at your house.' },
     { text: '' },
-    { text: 'Still, we believe that we will get married soon.' },
+    { text: 'Still, we both believe —' },
+    { text: 'we will get married soon.' },
     { text: '' },
     { text: 'Right now, we are in a fight.' },
     { text: 'Many times, I fall asleep while talking to you on the phone.' },
     { text: '' },
-    { text: 'This has been a problem for many years.' },
-    { text: 'I am trying to overcome it, but it hasn\'t been easy.' },
+    { text: 'It has been a problem for years.' },
+    { text: 'I am trying to overcome it,' },
+    { text: 'even when it feels difficult.' },
     { text: '' },
-    { text: 'You feel hurt because of it.' },
-    { text: 'Even then, you have always been there for me.' },
+    { text: 'It hurts you.' },
+    { text: 'I know that.' },
     { text: '' },
-    { text: '"That kind of staying is love. Always and forever."', className: 'font-serif italic text-accent mt-8' },
+    { text: 'And still, you stay.' },
+    { text: 'You have always been there for me,' },
+    { text: 'even with my flaws.' },
+    { text: '' },
+    { text: 'That kind of love is rare.' },
+    { text: '"That kind of love is you. Always and forever."', className: 'font-serif italic text-accent mt-8' },
   ];
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center px-6 py-20 max-w-2xl mx-auto">
-      <p className="text-xs tracking-[0.3em] uppercase text-muted-foreground mb-16">Chapter Six</p>
+      <p className="text-xs tracking-[0.3em] uppercase text-muted-foreground mb-16">Distance, Flaws, and Staying</p>
 
       <h2 className="font-serif text-2xl md:text-4xl text-center mb-12 opacity-80">
-        "Love is not the absence of problems. It is the choice to stay."
+        "Love is not made of perfect moments. It is made of staying."
       </h2>
 
       {!unlocked && (

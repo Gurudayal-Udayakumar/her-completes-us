@@ -30,24 +30,27 @@ const Memory1 = () => {
   }, []);
 
   const contentLines = [
-    { text: 'May 30' },
-    { text: 'That was the day we both sent a friend request to each other on Instagram.' },
-    { text: 'It was simple and casual, but it quietly started everything between us.' },
+    { text: 'May 30.' },
+    { text: 'The day we both sent a friend request on Instagram.' },
+    { text: 'A small action, done without thought,' },
+    { text: 'that slowly turned into something permanent.' },
     { text: '' },
-    { text: 'October 10' },
-    { text: 'That was the day we proposed.' },
+    { text: 'October 10.' },
+    { text: 'The day we crossed the line between knowing and choosing.' },
     { text: 'You were the one who proposed first.' },
-    { text: 'I remember that moment clearly, and I always will.' },
+    { text: 'That courage, that moment —' },
+    { text: 'it has never left my mind.' },
     { text: '' },
-    { text: '"Always and forever, this is where nama irukom."', className: 'font-serif italic text-accent mt-8' },
+    { text: 'This is where our story learned its direction.' },
+    { text: '"Always and forever, nama irukom."', className: 'font-serif italic text-accent mt-8' },
   ];
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center px-6 py-20 max-w-2xl mx-auto">
-      <p className="text-xs tracking-[0.3em] uppercase text-muted-foreground mb-16">Chapter One</p>
+      <p className="text-xs tracking-[0.3em] uppercase text-muted-foreground mb-16">Where It Began</p>
       
       <h2 className="font-serif text-2xl md:text-4xl text-center mb-12 opacity-80">
-        "Some beginnings don't announce themselves. They simply{' '}
+        "Some connections don't arrive loudly. They arrive quietly — and then they{' '}
         <span
           onMouseDown={startHold}
           onMouseUp={endHold}
